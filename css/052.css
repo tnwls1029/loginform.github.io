@@ -1,0 +1,197 @@
+@charset "utf-8";
+*{margin:0; padding:0;}
+li{list-style:none;}
+a{
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+fieldset{border: 0;}
+legend{
+    position: absolute;
+    left: -9999999999999px;
+}
+form{
+    width: 375px;
+    padding:20px 30px;
+    background-color: #F5F6F8;
+}
+form fieldset{
+    margin: 0 30px;
+}
+#form .img{
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.emailbox input[type=text]{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 315px;
+    height: 35px;
+    padding:0 10px;
+    box-sizing: border-box;
+}
+
+.emailbox input[placeholder]{
+    text-align: right;
+}
+
+.pwbox input[type=password]{
+    margin-top:10px;
+    margin-bottom: 25px;
+    width: 315px;
+    height: 35px;
+}
+
+.pwrebox input[type=password]{
+    margin-top:10px;
+    margin-bottom: 25px;
+    width: 315px;
+    height: 35px;
+}
+
+.namebox input[type=text]{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    width: 315px;
+    height: 35px;
+}
+
+.birbox{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.birbox input[type="text"]{
+    width: 99px;
+    height: 35px;
+    padding:0 10px;
+    box-sizing: border-box;
+}
+.birbox select{
+    width: 99px;
+    height: 39px;
+}
+.gmbox select{
+    width: 315px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.bem{
+    margin-bottom: 10px;
+}
+
+.bemtext{
+    display: inline-block;
+}
+.bembt{
+    display: inline-block;
+}
+
+.bem .bembox {
+    display: inline-block;
+}
+.bem .bembox input[type="text"]{
+    width: 220px;
+    height: 35px;
+}
+
+.bem .bembox input[type="button"]{
+    width: 80px;
+    height: 35px;
+}
+
+.bemm .bembox .bemtext input[type="text"]{
+    width: 220px;
+    height: 35px;
+    padding:0 10px;
+    box-sizing: border-box;
+}
+
+.bemm .bembox .bembt input[type="button"]{
+    width: 85px;
+    height: 35px;
+    font-size: 14px;
+}
+
+.agree{
+    margin-top: 15px;
+}
+.agree label{
+    font-size: 13.5px;
+} 
+.phon2{display: inline-block;}
+.phon3{display: inline-block;}
+
+.phone .phonela{
+    margin-top: 25px;
+}
+
+.phone1 select{
+    width: 315px;
+    height: 35px;
+    margin-top: 10px;
+}
+.phon2 input[type="text"]{
+    width: 198px;
+    height: 35px;
+    margin-top: 10px;
+    padding:0 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.phon3 input[type="button"]{
+    width: 105px;
+    height: 35px;
+    display: inline-block;
+}
+.phon4 input[type="text"]{
+    width: 315px;
+    height: 35px;
+    margin-top: 10px;
+    padding:0 10px;
+    box-sizing: border-box;
+}
+
+.agree2{
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.agree2 label{
+    font-size: 13.5px;
+}
+.addtext{display: inline-block;}
+.addbt{display: inline-block;}
+.addtext input[type="text"]{
+    width: 220px;
+    height: 35px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.addbt input[type="button"]{
+    width: 85px;
+    height: 35px;
+    display: inline-block;
+}
+.addtext1 input[type="text"]{
+    width: 315px;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.add span{
+    font-size: 13.5px;
+}
+.buttonlast input[type="button"]{
+    width: 315px;
+    height: 56px;
+    margin-top: 35px;
+    background-color: #B80106;
+    color:#fff;
+    font-size: 20px;
+    border-radius: 50px;
+}
+

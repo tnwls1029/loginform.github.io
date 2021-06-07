@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+*{margin:0; padding:0;}
+li{list-style:none;}
+a{
+    text-decoration: none;
+    color:#333;
+    display: block;
+}
+header{
+    width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+    line-height: 70px;
+}
+header::after{
+    content:'';
+    display:block;
+    clear: both;
+}
+header h1{
+    /* background-color: aquamarine; */
+    float: left;
+}
+header nav{
+    /* background-color: bisque; */
+    /* float: right; */
+    text-align:right;
+}
+
+header ul li{
+    display:inline-block;
+    width: 120px;
+    text-align: center;
+}
+
+/*메인비주얼 .main_visual*/
+.main_visual{
+    height:700px;
+    background:url('../img/flower.JPG') center center / cover no-repeat;
+    background-attachment: fixed;
+}
+.main_visual p{
+    font-size: 60px;
+    text-align: center;
+    line-height: 700px;
+    letter-spacing: 30px;
+    background-color: rgba(0, 0, 0, .3);
+    color:#fff;
+}
+
+/* .cont01 now contents */
+.cont01{
+    /* background-color:bisque; */
+    width: 1200px;
+    margin: 100px auto;
+}
+.cont01::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.cont01 h3{
+    font-size:40px;
+    text-align:center;
+    margin-bottom: 50px;
+}
+.cont01 article{
+    width: 285px;
+    border:1px solid #000;
+    box-sizing:border-box;
+    float: left;
+    margin-right:20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.cont01 article:last-child{
+    margin-right:0;
+}
+.cont01 article img{
+    width: 100%;
+}
+.cont01 article dl{
+    padding:30px;
+}
+.cont01 article dl dt{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer{
+    height:100px;
+    background-color: tomato;
+    line-height: 100px;
+    text-align: center;
+}
